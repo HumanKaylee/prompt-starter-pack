@@ -4,6 +4,26 @@
 
 ---
 
+### Want more? → [**Premium Pack (40 templates) — $9**](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium)
+
+The free pack covers the everyday templates. The premium pack adds 20 more, including topics this pack intentionally skipped because they need more depth:
+
+- **System design review** — pressure-test an architecture before you build it
+- **STRIDE threat modeling** — structured security analysis for new features
+- **Terraform / IaC review** — catch drift, blast-radius, and module coupling issues
+- **SQL query tuning** — explain-plan driven optimization for slow queries
+- **AI agent design** *(new)* — design agentic loops, tool schemas, and failure modes
+- **LLM evaluation** *(new)* — build an eval harness for your prompt pipeline
+- **RAG pipeline review** *(new)* — audit retrieval quality, chunking, and re-ranking
+- **Prompt chain decomposition** *(new)* — break complex tasks into reliable multi-step chains
+
+40 templates total. Same format, same tuning notes, same worked examples. One-time purchase, yours to keep.
+
+**→ [Get the Premium Pack ($9)](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium)**
+
+---
+
+
 ## Who this is for
 
 You're a software engineer, tech lead, or engineering manager who uses AI assistants (Claude, GPT-4, Gemini, etc.) regularly. You want prompts that **actually work** — not generic advice, but specific templates with variables, worked examples, and tuning notes from real sessions.
