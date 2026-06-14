@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Starter Pack</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --panel: #fffaf2;
+      --ink: #1e1d1a;
+      --muted: #6d6559;
+      --accent: #b85c38;
+      --accent-2: #1f5c4d;
+      --line: #d9cdbd;
+      --shadow: 0 18px 48px rgba(59, 44, 17, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(184, 92, 56, 0.14), transparent 28rem),
+        radial-gradient(circle at top right, rgba(31, 92, 77, 0.1), transparent 24rem),
+        var(--bg);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+
+    .hero {
+      padding: 28px;
+      border: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(255, 250, 242, 0.98), rgba(244, 239, 230, 0.92));
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      font-size: 0.82rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1, h2, h3, p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 14px;
+      font-size: clamp(2.2rem, 5vw, 4.3rem);
+      line-height: 0.95;
+    }
+
+    .hero p {
+      max-width: 46rem;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 16px;
+      border: 1px solid var(--ink);
+      text-decoration: none;
+      background: var(--ink);
+      color: #fffaf2;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--ink);
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .meta-card {
+      padding: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    .meta-card strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 4px;
+    }
+
+    .section {
+      margin-top: 28px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+
+    .section-head p {
+      margin-bottom: 0;
+      color: var(--muted);
+      max-width: 36rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      padding: 16px;
+      border: 1px solid var(--line);
+      background: #fffdf8;
+      min-height: 100%;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+      font-size: 1.15rem;
+    }
+
+    .card p {
+      margin-bottom: 12px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 4px 8px;
+      border: 1px solid var(--line);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-2);
+      background: rgba(31, 92, 77, 0.05);
+    }
+
+    .card a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .step {
+      padding: 16px;
+      border-left: 4px solid var(--accent);
+      background: rgba(184, 92, 56, 0.06);
+    }
+
+    .footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 720px) {
+      .wrap {
+        padding: 18px 14px 40px;
+      }
+
+      .hero,
+      .section {
+        padding: 18px;
+      }
+
+      .section-head {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Developer Prompt Collection</p>
+      <h1>Prompt Starter Pack</h1>
+      <p>
+        Practical prompt templates for real engineering work: code review, debugging,
+        architecture, performance, incidents, and the glue work around shipping software.
+        Each template is meant to be copied, filled in, and used immediately.
+      </p>
+      <div class="hero-actions">
+        <a class="button" href="https://github.com/HumanKaylee/prompt-starter-pack">Open the GitHub repo</a>
+        <a class="button secondary" href="README.md">Read the README</a>
+      </div>
+      <div class="meta">
+        <div class="meta-card">
+          <strong>20</strong>
+          Templates
+        </div>
+        <div class="meta-card">
+          <strong>3</strong>
+          Worked examples
+        </div>
+        <div class="meta-card">
+          <strong>MIT</strong>
+          Licensed
+        </div>
+        <div class="meta-card">
+          <strong>Any</strong>
+          Major LLM
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>How To Use It</h2>
+          <p>Open a template, swap in your variables, paste it into your model, then refine with the tuning notes.</p>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step"><strong>1.</strong> Pick the closest task instead of starting from a blank chat.</div>
+        <div class="step"><strong>2.</strong> Replace the `{{VARIABLES}}` with your real code, logs, or context.</div>
+        <div class="step"><strong>3.</strong> Use the worked example as a quality bar before trusting the answer.</div>
+        <div class="step"><strong>4.</strong> Read the tuning notes when the task is large, ambiguous, or high-risk.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Template Preview</h2>
+          <p>A quick scan of the pack without digging through every file first.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Review</span>
+          <h3>Code Review</h3>
+          <p>Structured feedback on correctness, security, performance, and maintainability before merge.</p>
+          <a href="templates/code-review.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Debugging</span>
+          <h3>Debugging Protocol</h3>
+          <p>Hypothesis-driven debugging for bugs you cannot yet explain or reliably reproduce.</p>
+          <a href="templates/debugging-protocol.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Design</span>
+          <h3>Refactoring Brief</h3>
+          <p>Turns messy code into a safer refactor plan with sequencing, risks, and rollback thinking.</p>
+          <a href="templates/refactoring-brief.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Testing</span>
+          <h3>Test Generation</h3>
+          <p>Expands a unit or module into a stronger test plan with edge cases and failure modes.</p>
+          <a href="templates/test-generation.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Architecture</span>
+          <h3>ADR</h3>
+          <p>Documents a decision with constraints, tradeoffs, alternatives, and consequences.</p>
+          <a href="templates/architecture-decision-record.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Writing</span>
+          <h3>Commit Message</h3>
+          <p>Condenses a diff into a crisp, conventional commit message that explains the why.</p>
+          <a href="templates/commit-message.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Collaboration</span>
+          <h3>PR Description</h3>
+          <p>Summarizes scope, risk, testing, and reviewer guidance for cleaner pull requests.</p>
+          <a href="templates/pr-description.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Ops</span>
+          <h3>Incident Postmortem</h3>
+          <p>Builds a blameless incident narrative from timeline notes, causes, and recovery work.</p>
+          <a href="templates/incident-postmortem.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Planning</span>
+          <h3>Requirements Elicitation</h3>
+          <p>Turns fuzzy asks into an implementable spec with questions, assumptions, and scope cuts.</p>
+          <a href="templates/requirements-elicitation.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Legacy</span>
+          <h3>Legacy Code Explainer</h3>
+          <p>Helps unpack unfamiliar codebases when you cannot easily run or test the system.</p>
+          <a href="templates/legacy-code-explainer.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Security</span>
+          <h3>Security Review</h3>
+          <p>Finds vulnerabilities, trust-boundary mistakes, and risky assumptions before release.</p>
+          <a href="templates/security-review.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">API</span>
+          <h3>API Design Review</h3>
+          <p>Pressure-tests endpoints, contracts, failure handling, and versioning choices.</p>
+          <a href="templates/api-design-review.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Performance</span>
+          <h3>Performance Optimization</h3>
+          <p>Ranks bottlenecks and suggests the cheapest measurement or fix before over-tuning.</p>
+          <a href="templates/performance-optimization.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Docs</span>
+          <h3>Documentation Generator</h3>
+          <p>Produces docstrings, READMEs, runbooks, and technical docs from the code in front of you.</p>
+          <a href="templates/documentation-generator.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Data</span>
+          <h3>Database Schema Review</h3>
+          <p>Checks a schema for correctness, indexing gaps, migration risk, and query ergonomics.</p>
+          <a href="templates/database-schema-review.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Migration</span>
+          <h3>Monorepo Migration</h3>
+          <p>Breaks a multi-repo consolidation into phases, rollback points, and ownership boundaries.</p>
+          <a href="templates/monorepo-migration.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Upgrades</span>
+          <h3>Dependency Upgrade Assessment</h3>
+          <p>Separates real upgrade drivers from churn and forces a go now, later, or no verdict.</p>
+          <a href="templates/dependency-upgrade-assessment.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Ops</span>
+          <h3>On-Call Handoff</h3>
+          <p>Transfers live operational context so incidents, watchouts, and noisy alerts do not get lost.</p>
+          <a href="templates/on-call-handoff.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Rollout</span>
+          <h3>Feature Flag Strategy</h3>
+          <p>Designs rollout phases, rollback rules, and cleanup expectations instead of a vague flag plan.</p>
+          <a href="templates/feature-flag-strategy.md">Open template</a>
+        </article>
+        <article class="card">
+          <span class="tag">Capacity</span>
+          <h3>Capacity Planning</h3>
+          <p>Ranks likely bottlenecks and turns fuzzy launch risk into measurable guardrails.</p>
+          <a href="templates/capacity-planning.md">Open template</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Worked Examples</h2>
+          <p>These are full sessions, not tiny toy snippets.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Example</span>
+          <h3>Code Review Session</h3>
+          <p>Shows how the pack surfaces a SQL injection issue and several follow-on review findings.</p>
+          <a href="examples/code-review-session.md">Read example</a>
+        </article>
+        <article class="card">
+          <span class="tag">Example</span>
+          <h3>Debugging Session</h3>
+          <p>Walks through a race-condition investigation with evidence, hypotheses, and a fix path.</p>
+          <a href="examples/debugging-session.md">Read example</a>
+        </article>
+        <article class="card">
+          <span class="tag">Example</span>
+          <h3>ADR Session</h3>
+          <p>Compares Redis, PostgreSQL, and JWT for session storage with tradeoffs spelled out.</p>
+          <a href="examples/adr-session.md">Read example</a>
+        </article>
+      </div>
+      <p class="footer">
+        If you later enable GitHub Pages for the repo root, this file becomes a lightweight public preview surface
+        without adding a framework or build step.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

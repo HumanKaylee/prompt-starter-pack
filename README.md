@@ -10,7 +10,7 @@ You're a software engineer, tech lead, or engineering manager who uses AI assist
 
 ## What's inside
 
-15 templates covering the most common developer tasks:
+20 templates covering the most common developer tasks:
 
 | Template | Use Case |
 |---|---|
@@ -29,6 +29,11 @@ You're a software engineer, tech lead, or engineering manager who uses AI assist
 | [`performance-optimization.md`](templates/performance-optimization.md) | Identify and prioritize performance bottlenecks |
 | [`documentation-generator.md`](templates/documentation-generator.md) | Generate docstrings, READMEs, runbooks, and architecture docs |
 | [`database-schema-review.md`](templates/database-schema-review.md) | Review a database schema for correctness and performance |
+| [`monorepo-migration.md`](templates/monorepo-migration.md) | Plan a safe migration from many repos to a monorepo |
+| [`dependency-upgrade-assessment.md`](templates/dependency-upgrade-assessment.md) | Decide whether a risky dependency upgrade should happen now |
+| [`on-call-handoff.md`](templates/on-call-handoff.md) | Hand off operational context between on-call engineers cleanly |
+| [`feature-flag-strategy.md`](templates/feature-flag-strategy.md) | Design a safe rollout and rollback plan for flagged features |
+| [`capacity-planning.md`](templates/capacity-planning.md) | Estimate whether a system can absorb expected load changes |
 
 3 full worked examples showing complete sessions from setup to result:
 
@@ -45,6 +50,8 @@ You're a software engineer, tech lead, or engineering manager who uses AI assist
 git clone https://github.com/HumanKaylee/prompt-starter-pack.git
 # or: click "Code → Download ZIP" above
 ```
+
+Prefer a quick skim first? Open [`index.html`](index.html) for a lightweight preview surface of the pack.
 
 **2. Open a template**
 ```bash
@@ -106,10 +113,7 @@ These templates are calibrated from real engineering work. They:
 
 Found a template that works better? Have a use case that's missing? Open a PR.
 
-**Guidelines:**
-- Each template needs: frontmatter, the prompt, a worked example, and tuning notes
-- Worked examples should be from real sessions (or realistic synthetic sessions) — not idealized demos
-- Tuning notes should include at least one "this doesn't work when..." case
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the template standard, style guide, and what makes a good addition.
 
 ## License
 
