@@ -4,7 +4,7 @@
 
 ---
 
-### Want more? → [**Premium Pack (40 templates) — $9**](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium)
+### Want more? → [**Premium Pack (40 templates) — $9**](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
 
 The free pack covers the everyday templates. The premium pack adds 20 more, including topics this pack intentionally skipped because they need more depth:
 
@@ -19,7 +19,7 @@ The free pack covers the everyday templates. The premium pack adds 20 more, incl
 
 40 templates total. Same format, same tuning notes, same worked examples. One-time purchase, yours to keep.
 
-**→ [Get the Premium Pack ($9)](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium)**
+**→ [Get the Premium Pack ($9)](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)**
 
 ---
 
