@@ -28,6 +28,17 @@ The free pack covers the everyday templates. The premium pack adds 20 more, incl
 
 You're a software engineer, tech lead, or engineering manager who uses AI assistants (Claude, GPT-4, Gemini, etc.) regularly. You want prompts that **actually work** — not generic advice, but specific templates with variables, worked examples, and tuning notes from real sessions.
 
+If you landed here looking for **prompt templates for Claude**, **ChatGPT prompts for developers**, or **AI workflow templates** for real software work, start with this free pack first. The templates are written for practical engineering tasks, not generic "be smarter" prompting.
+
+## Start here based on your task
+
+- **Code review / PR review**: [`templates/code-review.md`](templates/code-review.md)
+- **Debugging a hard bug**: [`templates/debugging-protocol.md`](templates/debugging-protocol.md)
+- **Architecture / design choices**: [`templates/architecture-decision-record.md`](templates/architecture-decision-record.md)
+- **Security / threat analysis**: [`templates/security-review.md`](templates/security-review.md)
+- **Performance / slow queries / scaling**: [`templates/performance-optimization.md`](templates/performance-optimization.md)
+- **Prompt-system or AI-native work**: the [Premium Pack](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9) adds templates for agent design, LLM evals, RAG review, and prompt-chain decomposition.
+
 ## What's inside
 
 20 templates covering the most common developer tasks:
