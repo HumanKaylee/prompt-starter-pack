@@ -263,6 +263,25 @@
       text-underline-offset: 2px;
     }
 
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .compare-card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: #fffdf8;
+    }
+
+    .compare-card ul {
+      margin: 12px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
     @media (max-width: 720px) {
       .wrap {
         padding: 18px 14px 40px;
@@ -364,6 +383,38 @@
             <a href="templates/architecture-decision-record.md">Open template</a>
             <a href="examples/adr-session.md">See full example</a>
           </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Pick Your Lane</h2>
+          <p>
+            Most visitors do not need every template. Use the free pack when you want a fast starter set,
+            and only jump to premium when the work is higher-stakes or more specialized.
+          </p>
+        </div>
+      </div>
+      <div class="compare-grid">
+        <article class="compare-card">
+          <span class="tag">Free pack</span>
+          <h3>Enough for everyday engineering work</h3>
+          <ul>
+            <li>Code review, debugging, ADRs, security review, and PR writeups</li>
+            <li>Three worked examples so you can compare output quality before trusting it</li>
+            <li>Best if you want to try the pack before spending anything</li>
+          </ul>
+        </article>
+        <article class="compare-card">
+          <span class="tag" style="color: var(--accent); border-color: rgba(184,92,56,0.3); background: rgba(184,92,56,0.08);">Premium pack</span>
+          <h3>Worth it when the task is expensive to get wrong</h3>
+          <ul>
+            <li>AI-agent design, RAG review, Docker/IaC review, SQL tuning, and deeper systems work</li>
+            <li>More structure for complex prompts where retries cost time or hide risk</li>
+            <li>Best if you already know you want production-grade prompt scaffolding</li>
+          </ul>
         </article>
       </div>
     </section>
