@@ -1,28 +1,12 @@
 # Prompt Starter Pack
 
-**Battle-tested prompt templates for developers.** Stop writing the same prompts from scratch. Start with templates that have been refined through real use.
+**Battle-tested prompt templates for developers.** Stop writing the same prompts from scratch. Start with 20 free templates and 3 worked examples you can use in one chat today.
 
----
-
-### Want more? → [**Premium Pack (40 templates) — $9**](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
-
-The free pack covers the everyday templates. The premium pack adds 20 more, including topics this pack intentionally skipped because they need more depth:
-
-- **System design review** — pressure-test an architecture before you build it
-- **STRIDE threat modeling** — structured security analysis for new features
-- **Terraform / IaC review** — catch drift, blast-radius, and module coupling issues
-- **SQL query tuning** — explain-plan driven optimization for slow queries
-- **AI agent design** *(new)* — design agentic loops, tool schemas, and failure modes
-- **LLM evaluation** *(new)* — build an eval harness for your prompt pipeline
-- **RAG pipeline review** *(new)* — audit retrieval quality, chunking, and re-ranking
-- **Prompt chain decomposition** *(new)* — break complex tasks into reliable multi-step chains
-
-40 templates total. Same format, same tuning notes, same worked examples. One-time purchase, yours to keep.
-
-**→ [Get the Premium Pack ($9)](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)**
-
----
-
+Quick start:
+- [Start with the code review template](templates/code-review.md)
+- [Download the free ZIP](https://github.com/HumanKaylee/prompt-starter-pack/archive/refs/heads/main.zip)
+- [Browse the lightweight preview page](https://humankaylee.github.io/prompt-starter-pack/)
+- [See the premium pack when you need deeper coverage](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
 
 ## Who this is for
 
@@ -73,6 +57,23 @@ If you landed here looking for **prompt templates for Claude**, **ChatGPT prompt
 | [`code-review-session.md`](examples/code-review-session.md) | Catching a SQL injection + 4 other issues in a TypeScript API key middleware |
 | [`debugging-session.md`](examples/debugging-session.md) | Diagnosing a TOCTOU race condition causing duplicate DB rows |
 | [`adr-session.md`](examples/adr-session.md) | Deciding between Redis, PostgreSQL, and JWT for session storage |
+
+## Upgrade when the free pack is not enough
+
+The free pack covers everyday engineering work. The premium pack adds 20 more templates for the tasks that are more specialized, higher-risk, or more expensive to get wrong:
+
+- **System design review** — pressure-test an architecture before you build it
+- **STRIDE threat modeling** — structured security analysis for new features
+- **Terraform / IaC review** — catch drift, blast-radius, and module coupling issues
+- **SQL query tuning** — explain-plan driven optimization for slow queries
+- **AI agent design** *(new)* — design agentic loops, tool schemas, and failure modes
+- **LLM evaluation** *(new)* — build an eval harness for your prompt pipeline
+- **RAG pipeline review** *(new)* — audit retrieval quality, chunking, and re-ranking
+- **Prompt chain decomposition** *(new)* — break complex tasks into reliable multi-step chains
+
+40 templates total. Same format, same tuning notes, same worked examples. One-time purchase, yours to keep.
+
+**→ [Get the Premium Pack ($9)](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)**
 
 ## Quickstart
 
