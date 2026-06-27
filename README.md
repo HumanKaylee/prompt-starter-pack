@@ -8,6 +8,18 @@ Quick start:
 - [Browse the lightweight preview page](https://humankaylee.github.io/prompt-starter-pack/)
 - [See the premium pack when you need deeper coverage](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
 
+## Downloaded already? Open these first
+
+If you already grabbed the ZIP or cloned the repo, do not skim every file. Start with one path:
+
+| If you need... | Open this first | Then compare against |
+|---|---|---|
+| A better PR review | [`templates/code-review.md`](templates/code-review.md) | [`examples/code-review-session.md`](examples/code-review-session.md) |
+| Help debugging a bug | [`templates/debugging-protocol.md`](templates/debugging-protocol.md) | [`examples/debugging-session.md`](examples/debugging-session.md) |
+| A cleaner architecture decision | [`templates/architecture-decision-record.md`](templates/architecture-decision-record.md) | [`examples/adr-session.md`](examples/adr-session.md) |
+
+That gets you to a usable result faster than browsing the full pack first.
+
 ## Who this is for
 
 You're a software engineer, tech lead, or engineering manager who uses AI assistants (Claude, GPT-4, Gemini, etc.) regularly. You want prompts that **actually work** — not generic advice, but specific templates with variables, worked examples, and tuning notes from real sessions.
