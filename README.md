@@ -8,6 +8,8 @@ Quick start:
 - [Browse the lightweight preview page](https://humankaylee.github.io/prompt-starter-pack/)
 - [See the premium pack when you need deeper coverage](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
 
+If one template saves you a rewrite, please [star the repo](https://github.com/HumanKaylee/prompt-starter-pack). That is the lightest way to signal which free surfaces are actually helping.
+
 ## Downloaded already? Open these first
 
 If you already grabbed the ZIP or cloned the repo, do not skim every file. Start with one path:
@@ -19,6 +21,8 @@ If you already grabbed the ZIP or cloned the repo, do not skim every file. Start
 | A cleaner architecture decision | [`templates/architecture-decision-record.md`](templates/architecture-decision-record.md) | [`examples/adr-session.md`](examples/adr-session.md) |
 
 That gets you to a usable result faster than browsing the full pack first.
+
+If that first template works, circle back and [star the repo](https://github.com/HumanKaylee/prompt-starter-pack) so the free pack is easier for the next engineer to find.
 
 ## Who this is for
 
