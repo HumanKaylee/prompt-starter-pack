@@ -221,6 +221,29 @@
       background: rgba(184, 92, 56, 0.06);
     }
 
+    .test-drive-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      background: #fffdf8;
+    }
+
+    .test-drive-table th,
+    .test-drive-table td {
+      padding: 12px 10px;
+      border: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .test-drive-table th {
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: rgba(31, 92, 77, 0.05);
+    }
+
     .footer {
       margin-top: 22px;
       color: var(--muted);
@@ -348,6 +371,50 @@
           Major LLM
         </div>
       </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Run One 5-Minute Test Drive</h2>
+          <p>
+            The fastest way to tell whether the pack is useful is to run one real task through it now,
+            before you skim every file or think about the premium upgrade.
+          </p>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step"><strong>1.</strong> Pick one real PR, bug, or design choice you already have open.</div>
+        <div class="step"><strong>2.</strong> Open the closest template and paste in your real code, logs, or context.</div>
+        <div class="step"><strong>3.</strong> Compare the output against the matching worked example before trusting it.</div>
+        <div class="step"><strong>4.</strong> If it saves you time, grab the ZIP, star the repo, or upgrade for deeper coverage.</div>
+      </div>
+      <table class="test-drive-table">
+        <thead>
+          <tr>
+            <th>Real task</th>
+            <th>Start here</th>
+            <th>Check against</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Review a pull request</td>
+            <td><a href="templates/code-review.md">Code Review template</a></td>
+            <td><a href="examples/code-review-session.md">Code review worked example</a></td>
+          </tr>
+          <tr>
+            <td>Debug a failure you cannot explain yet</td>
+            <td><a href="templates/debugging-protocol.md">Debugging Protocol template</a></td>
+            <td><a href="examples/debugging-session.md">Debugging worked example</a></td>
+          </tr>
+          <tr>
+            <td>Pressure-test a design choice</td>
+            <td><a href="templates/architecture-decision-record.md">ADR template</a></td>
+            <td><a href="examples/adr-session.md">ADR worked example</a></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section class="section">

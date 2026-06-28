@@ -10,6 +10,23 @@ Quick start:
 
 If one template saves you a rewrite, please [star the repo](https://github.com/HumanKaylee/prompt-starter-pack). That is the lightest way to signal which free surfaces are actually helping.
 
+## Run one 5-minute test drive
+
+Do this before you browse the whole pack:
+
+1. Pick one real task you already have open.
+2. Open the closest template below.
+3. Paste in your real diff, logs, or design question.
+4. Compare the result against the matching worked example.
+
+| If your next task is... | Start here | Quality bar |
+|---|---|---|
+| Reviewing a pull request | [`templates/code-review.md`](templates/code-review.md) | [`examples/code-review-session.md`](examples/code-review-session.md) |
+| Debugging a failure you cannot explain yet | [`templates/debugging-protocol.md`](templates/debugging-protocol.md) | [`examples/debugging-session.md`](examples/debugging-session.md) |
+| Deciding between implementation options | [`templates/architecture-decision-record.md`](templates/architecture-decision-record.md) | [`examples/adr-session.md`](examples/adr-session.md) |
+
+If that first run saves you time, then grab the [free ZIP](https://github.com/HumanKaylee/prompt-starter-pack/archive/refs/heads/main.zip), [star the repo](https://github.com/HumanKaylee/prompt-starter-pack), or step up to the [premium pack](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9) for deeper coverage.
+
 ## Downloaded already? Open these first
 
 If you already grabbed the ZIP or cloned the repo, do not skim every file. Start with one path:
