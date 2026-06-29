@@ -4,6 +4,7 @@
 
 Quick start:
 - [Start with the code review template](templates/code-review.md)
+- [Copy the code review prompt as raw text](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/code-review.md)
 - [Download the free ZIP](https://github.com/HumanKaylee/prompt-starter-pack/archive/refs/heads/main.zip)
 - [Browse the lightweight preview page](https://humankaylee.github.io/prompt-starter-pack/)
 - [See the premium pack when you need deeper coverage](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
@@ -19,11 +20,11 @@ Do this before you browse the whole pack:
 3. Paste in your real diff, logs, or design question.
 4. Compare the result against the matching worked example.
 
-| If your next task is... | Start here | Quality bar |
-|---|---|---|
-| Reviewing a pull request | [`templates/code-review.md`](templates/code-review.md) | [`examples/code-review-session.md`](examples/code-review-session.md) |
-| Debugging a failure you cannot explain yet | [`templates/debugging-protocol.md`](templates/debugging-protocol.md) | [`examples/debugging-session.md`](examples/debugging-session.md) |
-| Deciding between implementation options | [`templates/architecture-decision-record.md`](templates/architecture-decision-record.md) | [`examples/adr-session.md`](examples/adr-session.md) |
+| If your next task is... | Start here | Copy-ready raw prompt | Quality bar |
+|---|---|---|---|
+| Reviewing a pull request | [`templates/code-review.md`](templates/code-review.md) | [Raw prompt](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/code-review.md) | [`examples/code-review-session.md`](examples/code-review-session.md) |
+| Debugging a failure you cannot explain yet | [`templates/debugging-protocol.md`](templates/debugging-protocol.md) | [Raw prompt](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/debugging-protocol.md) | [`examples/debugging-session.md`](examples/debugging-session.md) |
+| Deciding between implementation options | [`templates/architecture-decision-record.md`](templates/architecture-decision-record.md) | [Raw prompt](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/architecture-decision-record.md) | [`examples/adr-session.md`](examples/adr-session.md) |
 
 If that first run saves you time, then grab the [free ZIP](https://github.com/HumanKaylee/prompt-starter-pack/archive/refs/heads/main.zip), [star the repo](https://github.com/HumanKaylee/prompt-starter-pack), or step up to the [premium pack](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9) for deeper coverage.
 
