@@ -2,6 +2,8 @@
 
 **Battle-tested prompt templates for developers.** Stop writing the same prompts from scratch. Start with 20 free templates and 3 worked examples you can use in one chat today.
 
+Works anywhere you can paste Markdown: Claude Code, Cursor Chat, GitHub Copilot Chat, ChatGPT, Gemini, or a local model UI.
+
 Quick start:
 - [Start with the code review template](templates/code-review.md)
 - [Copy the code review prompt as raw text](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/code-review.md)
@@ -10,6 +12,10 @@ Quick start:
 - [See the premium pack when you need deeper coverage](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9)
 
 If one template saves you a rewrite, please [star the repo](https://github.com/HumanKaylee/prompt-starter-pack). That is the lightest way to signal which free surfaces are actually helping.
+
+Fastest setup by tool:
+- **Claude Code / Cursor / Copilot Chat**: open one template, copy the `## Prompt` section, paste it into chat, then fill the variables with your real code or logs.
+- **ChatGPT / Gemini / Claude web**: use the raw prompt links below if you want the cleanest copy-paste path without opening Markdown in GitHub first.
 
 ## Run one 5-minute test drive
 
