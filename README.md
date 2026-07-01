@@ -13,6 +13,17 @@ Quick start:
 
 If one template saves you a rewrite, please [star the repo](https://github.com/HumanKaylee/prompt-starter-pack). That is the lightest way to signal which free surfaces are actually helping.
 
+## Choose the right pack in 30 seconds
+
+| Start with the free pack if... | Step up to premium if... |
+|---|---|
+| You want one strong template for a PR, bug, architecture choice, or incident right now. | You need deeper AI-native workflows, security structure, or higher-stakes review prompts. |
+| You prefer copy-paste Markdown you can test in one chat before buying anything. | You already know the free pack format works for you and want more coverage in the same format. |
+| You mainly need day-to-day engineering prompts and a few worked examples to calibrate output quality. | You want the extra 20 templates for agent design, evals, RAG review, STRIDE, Terraform, SQL tuning, and other specialized work. |
+
+Free gets you 20 templates and 3 worked examples.
+Premium gets you 40 templates total in the same format, plus the more specialized prompts that are costlier to get wrong.
+
 Fastest setup by tool:
 - **Claude Code / Cursor / Copilot Chat**: open one template, copy the `## Prompt` section, paste it into chat, then fill the variables with your real code or logs.
 - **ChatGPT / Gemini / Claude web**: use the raw prompt links below if you want the cleanest copy-paste path without opening Markdown in GitHub first.
