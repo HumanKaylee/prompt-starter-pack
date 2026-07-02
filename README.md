@@ -13,6 +13,14 @@ Quick start:
 
 If one template saves you a rewrite, please [star the repo](https://github.com/HumanKaylee/prompt-starter-pack). That is the lightest way to signal which free surfaces are actually helping.
 
+## Start in under 60 seconds
+
+No signup, install, or clone required for the first test:
+
+1. Open the [raw code review prompt](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/code-review.md) or the [raw debugging prompt](https://raw.githubusercontent.com/HumanKaylee/prompt-starter-pack/main/templates/debugging-protocol.md).
+2. Paste it into Claude Code, Cursor, Copilot Chat, ChatGPT, Gemini, or your local model UI with one real diff, log, or design question.
+3. If the result helps, then [download the free ZIP](https://github.com/HumanKaylee/prompt-starter-pack/archive/refs/heads/main.zip), [star the repo](https://github.com/HumanKaylee/prompt-starter-pack), or step up to the [premium pack](https://flamewulfe.gumroad.com/l/prompt-starter-pack-premium/LAUNCH9).
+
 ## Choose the right pack in 30 seconds
 
 | Start with the free pack if... | Step up to premium if... |
